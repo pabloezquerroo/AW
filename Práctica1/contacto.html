@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="./estilos/estilo_formulario.css" rel="stylesheet" type="text/css" />
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="detalles.html">Detalles</a></li>
+                <li><a href="bocetos.html">Bocetos</a></li>
+                <li><a  href="miembros.html">Miembros</a></li>
+                <li><a href="planificacion.html">Planificación</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+    <form action="mailto:hola@hola.es" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Contacto</legend>
+            <div>
+                <label for="username">Nombre: </label>
+                <input id ="username" name="username" type="text" value="" />
+            </div>
+
+            <div>
+                <label for="email">Correo Electronico:</label>
+                <input id="email" name="email" type="text" value="" />
+            </div>
+            
+            <div>
+                <label>Motivo Consulta:</label>
+                <label for ="Consulta_evaluacion"><input id="Consulta_evaluacion" type="radio" name="Consulta" value="Evaluacion" />Evaluación</label>
+                <label for ="Consulta_sugerencias"><input id="Consulta_sugerencias" type="radio" name="Consulta" value="Sugerencias" />Sugerencias</label>
+                <label for ="Consulta_criticas"><input id="Consulta_criticas" type="radio" name="Consulta" value="Criticas" />Críticas</label>
+            </div>
+            
+            <div>
+                <label for="usertext">Descripcion Consulta:</label>
+                <textarea id="usertext" name="usertext" rows="4" cols="75" ></textarea>
+            </div>
+            
+            <div>
+                <label for="Term_Conditions"> Marque esta casilla para verificar que ha leído nuestros términos y condiciones del servicio</label>
+                <input id="Term_Conditions" name="Term_Conditions" type="checkbox" > 
+            </div>
+
+            <input type="submit" value="Enviar Formulario"/>
+        </fieldset>
+    </form>
+    </main>
+
+</body>

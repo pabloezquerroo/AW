@@ -1,0 +1,11 @@
+.bocetos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.miembros{
+    width: 25%;
+    margin: auto;
+    display: flex;
+}
