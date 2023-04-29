@@ -13,7 +13,7 @@ $contenidoPrincipal = <<<EOS
     <h1>Pet2Safe</h1>
     <p> Comunidad de protectoras y amigos de los animales. 
     Si quieres estar al tanto de los animales en adopción, 
-    los ya adopatados y los eventos benéficos, este es tu sitio.</p>
+    los ya adoptados y los eventos benéficos, este es tu sitio.</p>
 </div>
 EOS;
 

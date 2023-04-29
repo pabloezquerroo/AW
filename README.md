@@ -12,6 +12,6 @@ Aquellos usuarios nuevos en la aplicación podrán solicitar colaboración con p
 
 En el caso de no querer pertenecer a ninguna protectora, se podrá dar de alta una propia, que tendrá que ser aceptada por el administrador de la aplicación. O simplemente, con estar registrado en la página, se podrá asistir a eventos y comentar en posts sin tener que representar a ninguna protectora
 
-<img src=./README/portada.png>  </img>
+<img src=./README/portada.jpg>  </img>
 
 Todas las imágenes, funcionalidades e información de la página web se pueden ver aquí: [Memoria](./Memoria.pdf)
